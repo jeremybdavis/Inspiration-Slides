@@ -1,0 +1,42 @@
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
+.bs-ov h1 {
+    font-size: 52px;
+}
+
+.carousel {
+    height: 100vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.bs-ov .carousel-item.active,
+.bs-ov .carousel-item-next,
+.bs-ov .carousel-item-prev {
+    display: flex;
+}
+
+.bs-ov .carousel-item {
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.carousel-item blockquote {
+    font-size: 36px;
+    margin: 0;
+    width: 75%;
+}
+
+.carousel-item .images {
+    align-items: center;
+    display: flex;
+}
+
+.carousel-item .img-right img {
+    margin: 10px 0;
+}
